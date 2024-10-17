@@ -50,3 +50,20 @@ body {
     background-color: var(--dark-grayish-blue);
 }
 
+
+.card-content {
+    text-align: center;
+    background-color: var(--dark-grayish-blue);
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: var(--light-cyan);
+    margin-bottom: 1em;
+}
+
+
