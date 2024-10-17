@@ -89,3 +89,38 @@ i {
 }
 
 
+
+button {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 50%;
+
+    background-color: var(--neon-green);
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 16px var(--neon-green);}
+
+p {
+    font-size: 0.8rem;
+    color: var(--neon-green);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+
+
