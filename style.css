@@ -108,10 +108,13 @@ button {
 
     background-color: var(--neon-green);
     cursor: pointer;
+
+    transition: all 0.2s ease-in-out;
 }
 
 button:hover {
-    box-shadow: 0 0 16px var(--neon-green);}
+    box-shadow: 0 0 16px var(--neon-green);
+}
 
 
 
