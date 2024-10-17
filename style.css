@@ -57,15 +57,19 @@ body {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    color: var(--neon-green);
+    text-transform: uppercase;
+    letter-spacing: 4px;
     margin-bottom: 2em;
 }
 
 h2 {
     color: var(--light-cyan);
+    font-size: 1.5rem;
+    font-weight: 800;
     margin-bottom: 1em;
 }
-
 
 .divider {
     position: relative;
@@ -109,17 +113,7 @@ button {
 button:hover {
     box-shadow: 0 0 16px var(--neon-green);}
 
-p {
-    font-size: 0.8rem;
-    color: var(--neon-green);
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
 
-h2 {
-    font-size: 1.5rem;
-    font-weight: 800;
-}
 
 
 
