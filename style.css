@@ -50,6 +50,26 @@ body {
     background-color: var(--dark-grayish-blue);
 }
 
+@media screen and (max-width: 620px) {
+    .card {
+        width: 95vw;
+        padding: 2em;
+    }
+
+    .divider {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        padding: 1.5em;
+    }
+
+    .divider {
+        margin-bottom: 20px;
+    }
+}
 
 .card-content {
     text-align: center;
